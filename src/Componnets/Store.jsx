@@ -26,7 +26,7 @@ const Store= () => {
                 <div className="tshirts">
                     
                     <img 
-                    src="../public/—Pngtree—different color t shirts with_15058519 3.png" 
+                    src="../public/—Pngtree—different color t shirts with_15058519 3.jpg" 
                     alt="Portfolio"  
                     />
                     
@@ -46,7 +46,7 @@ const Store= () => {
                 <div className="tshirts">
                     
                     <img 
-                    src="../public/—Pngtree—different color t shirts with_15058519 4.png" 
+                    src="../public/—Pngtree—different color t shirts with_15058519 4.jpg" 
                     alt="Portfolio"  
                     />
                     
@@ -87,7 +87,7 @@ const Store= () => {
                 <div className="tshirts">
                     
                     <img 
-                    src="../public/—Pngtree—different color t shirts with_15058519 6.png" 
+                    src="../public/—Pngtree—different color t shirts with_15058519 6.jpg" 
                     alt="Portfolio"  
                     />
                     
@@ -107,7 +107,7 @@ const Store= () => {
                 <div className="tshirts">
                     
                     <img 
-                    src="../public/—Pngtree—different color t shirts with_15058519 5.png" 
+                    src="../public/—Pngtree—different color t shirts with_15058519 5.jpg" 
                     alt="Portfolio"  
                     />
                     
@@ -128,29 +128,7 @@ const Store= () => {
                 <div className="tshirts">
                     
                     <img 
-                    src="../public/—Pngtree—different color t shirts with_15058519 6-1.png" 
-                    alt="Portfolio"  
-                    />
-                    
-                    <MdAddCircleOutline className="add-btn"/>
-                </div>
-                
-                <div className="tshirts-info">
-                   <h5>Lorem ipsum dolor</h5>
-                   <h6>18.00$</h6>
-                </div>
-            </div>
-        </div>
-
-
-
-
-        <div className="tshirts-sec">
-            <div>
-                <div className="tshirts">
-                    
-                    <img 
-                    src="../public/—Pngtree—different color t shirts with_15058519 7.png" 
+                    src="../public/—Pngtree—different color t shirts with_15058519 6-1.jpg" 
                     alt="Portfolio"  
                     />
                     
@@ -172,7 +150,29 @@ const Store= () => {
                 <div className="tshirts">
                     
                     <img 
-                    src="../public/—Pngtree—different color t shirts with_15058519 8.png" 
+                    src="../public/—Pngtree—different color t shirts with_15058519 7.jpg" 
+                    alt="Portfolio"  
+                    />
+                    
+                    <MdAddCircleOutline className="add-btn"/>
+                </div>
+                
+                <div className="tshirts-info">
+                   <h5>Lorem ipsum dolor</h5>
+                   <h6>18.00$</h6>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div className="tshirts-sec">
+            <div>
+                <div className="tshirts">
+                    
+                    <img 
+                    src="../public/—Pngtree—different color t shirts with_15058519 8.jpg" 
                     alt="Portfolio"  
                     />
                     
