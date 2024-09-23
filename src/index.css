@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+  font-family: "Inria Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --text-color: #000;
+  --main-color: #F7F7F7;
+  --tshirts-list-color: #EEEEEE;
+  
+  --nav-text-size: 20px;
+  --text-logo: 48px;
+  --home-text: 15px;
+  --home-text-2: 12px;
+  --tshirt-name-size: 18px;
+  --price-text-size: 16px;
+}
+
+.home{
+  width: 100%;
+	min-height: 100vh;
+	background: url(../public/Rectangle\ 1.png) no-repeat;
+	background-size: cover;
+	background-position:center ;
+	background-attachment: fixed;
+
+}
+.home::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+}
+.home *{
+	z-index: 999;
+}
+
+body{
+  background-color: var(--main-color);
+}
+nav ul a{
+  cursor: pointer;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 17px 107px;
+}
+nav .first-nav {
+  display: flex;
+  gap: 70px;
+  color: var(--text-color);
+  font-size: var(--nav-text-size);
+}
+nav .logo{
+  color: var(--text-color);
+  font-size: var(--text-logo);
+}
+nav .second-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+  font-size: var(--nav-text-size);
+  gap: 20px;
+}
+nav .second-nav .shop-cart{
+  display: flex;
+}
+.home-text{
+  display:flex ;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: flex-end;
+  padding: 17px 104px;
+}
+.home-text h5{
+  color: var(--text-color);
+  font-size: var(--home-text);
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.home-text h4{
+  color: var(--text-color);
+  font-size: var(--home-text-2);
+  font-weight: 700;
+  text-decoration:underline;
+}
+
+
+
+/*  Store    */
+
+
+.store{
+  display: flex;
+  justify-content: center;
+  padding: 70px 107px;
+  background-color: var(--main-color);
+  flex-direction: column;
+}
+.store-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 42px;
+}
+.store-nav a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.51);
+  font-size: 20px;
+  font-weight: 300;
+  transition: color 0.6s; /* Smooth color transition */
+  position: relative;
+  float: left;
+}
+
+.store-nav a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: var(--text-color); 
+  position: absolute;
+  bottom: -3px; 
+  left: 0;
+  transition: width 0.5s ease; 
+}
+
+.store-nav a:hover::after {
+  width: 100%; 
+}
+
+.store-nav a:hover {
+  color: var(--text-color); 
+}
+.tshirts-main-sec{
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.tshirts-sec{
+  display: flex;
+  padding: 60px 0px;
+}
+.tshirts{
+  display: flex;
+  width: 307px;
+  height: 421px;
+  background-color: var(--tshirts-list-color);
+}
+.tshirts img{
+  width: 271px;
+  height: 378px;
+}
+.tshirts .add-btn{
+  display: flex;
+  margin: 10px;
+  font-size: 27px;
+  z-index: 1;
+}
+.tshirts-info{
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0px;
+  gap: 4px;
+}
+.tshirts-info h5{
+  color: var(--text-color);
+  font-size: var(--tshirt-name-size);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.tshirts-info h6{
+  font-size: var(--price-text-size);
+  color: rgba(0, 0, 0, 0.51);
+  font-weight: 400;
+}
+
+
+
+
+
+/*   Footer    */
+
+.footer{
+  display: flex;
+  height: 100px;
+  background-color: var(--tshirts-list-color);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 107px;
+}
+.footer h4,h3{
+  color: rgba(0, 0, 0, 0.51);
+
+}
